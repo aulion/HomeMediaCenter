@@ -10,6 +10,8 @@
 ## Install
 More detail see README in nginx
 In nginx directory
+More detail see README in nginx
+In nginx directory
     make install
 
     
