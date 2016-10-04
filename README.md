@@ -8,17 +8,17 @@
     make
 
 ## Install
-    * More detail see README in nginx
-    * In nginx directory
+More detail see README in nginx
+In nginx directory
     make install
 
     
 
 ## Configuration
 
-    *Edit the configuration file so that file requests ending in ".mp4" are handled by the 'mp4' command.
+Edit the configuration file so that file requests ending in ".mp4" are handled by the 'mp4' command.
 
-    *    nginx.conf
+nginx.conf
 
         location ~ \.mp4$ {
             mp4;
