@@ -33,7 +33,7 @@ dscl . create /Groups/nginx GroupMembership nginx
 #  Because the worker processes will be running as a non-root user, we need to update the log locations so the new user can write to them. I gave the nginx user ownership over the main Nginx log directory and associated log file.
 
 # Give nginx ownership of its log files.
-mkdir /var/log/nginx/logs
+mkdir -p /var/log/nginx/logs
 # chown -R nginx /usr/local/Cellar/nginx/1.4.0/logs
 chown -R nginx /var/log/nginx
 
