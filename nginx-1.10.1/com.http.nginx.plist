@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.http.nginx</string>
+	<key>Program</key>
+	<string>/usr/local/nginx/sbin/nginx</string>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>WorkingDirectory</key>
+	<string>/usr/local</string>
+	<key>StandardOutPath</key>
+	<string>/var/log/nginx/stdout.log</string>
+	<key>StandardErrorPath</key>
+	<string>/var/log/nginx/stderr.log</string>
+</dict>
+</plist>
