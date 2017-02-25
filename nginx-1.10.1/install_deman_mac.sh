@@ -41,5 +41,7 @@ chown -R nginx /var/log/nginx
 # Will be used to store the stdout and stderr files.
 install -o nginx -g admin -m 0755 -d /var/log/nginx
 
+cp com.http.nginx.plist /Library/LaunchDaemons
+
 #   Now that we've got our new user and group created, the configuration file updated, and our permissions set, we can now create our property list file to feed to launchd so the system knows how to handle our process. Since this is an administratively installed background system daemon we'll be storing the file in /Library/LaunchDaemons. Note, we're not storing it in /System/Library/LaunchDaemons as those are strictly for Apple's use, and we don't want to mess around in there.
 
