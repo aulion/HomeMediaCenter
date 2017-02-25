@@ -14,7 +14,7 @@
 	<key>RunAtLoad</key>
 	<true/>
 	<key>WorkingDirectory</key>
-	<string>/usr/local</string>
+	<string>/usr/local/nginx</string>
 	<key>StandardOutPath</key>
 	<string>/var/log/nginx/stdout.log</string>
 	<key>StandardErrorPath</key>
